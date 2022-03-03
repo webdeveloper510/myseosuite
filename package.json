@@ -1,0 +1,26 @@
+{
+  "name": "seosuite",
+  "version": "1.0.0",
+  "description": "seosuite",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "seosuite",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.206.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
